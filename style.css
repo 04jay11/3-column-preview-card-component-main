@@ -26,11 +26,11 @@ body {
 }
 
 .wrapper {
-  /* height: 100vh; */
+  min-height: 100%;
   display: grid;
   place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 30.8rem));
-  margin-block: 5rem;
+  margin-block: auto;
 }
 
 .card-1 {
