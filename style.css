@@ -30,6 +30,7 @@ body {
   display: grid;
   place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 30.8rem));
+  padding-block: 2rem;
 }
 
 .card-1 {
